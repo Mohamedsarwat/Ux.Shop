@@ -1,0 +1,615 @@
+<!DOCTYPE html >
+<html>
+<head>
+   <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Category Contents </title>
+<!--Include Css Files -->
+	    <link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+		<link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css">
+	    <link rel="stylesheet" href="css/jquery.bxslider.css">
+        <link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/style.css">
+<!--End Including Css Files -->
+</head>
+<body>
+    
+     
+    <div class="loading">
+          <div class='loader'>
+      <div class='circle'></div>
+      <div class='circle'></div>
+      <div class='circle'></div>
+      <div class='circle'></div>
+      <div class='circle'></div>
+    </div>
+ </div>
+
+    <!--End Loadeing --> 
+
+<!--Start Top-header -->
+    <nav class="topBar navbar">
+    <div class="container">
+
+      <ul class="topBarNav pull-right">
+    
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <img src="http://diamondcreative.net/plus-v1.2/img/flags/flag-french.jpg" class="mr-5" alt=""> <span class="hidden-xs"> French <i class="fa fa-angle-down ml-5"></i></span> </a>
+          <ul class="dropdown-menu w-100" role="menu">
+            <li>
+              <a href="#"><img src="http://diamondcreative.net/plus-v1.2/img/flags/flag-english.jpg" class="mr-5" alt="">English</a>
+            </li>
+            <li class="">
+              <a href="#"><img src="http://diamondcreative.net/plus-v1.2/img/flags/flag-french.jpg" class="mr-5" alt="">French</a>
+            </li>
+            <li>
+              <a href="#"><img src="http://diamondcreative.net/plus-v1.2/img/flags/flag-german.jpg" class="mr-5" alt="">German</a>
+            </li>
+            <li>
+              <a href="#"><img src="http://diamondcreative.net/plus-v1.2/img/flags/flag-spain.jpg" class="mr-5" alt="">Spain</a>
+            </li>
+          </ul>
+        </li>
+          
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-user mr-5"></i><span class="hidden-xs">My Account<i class="fa fa-angle-down ml-5"></i></span> </a>
+          <ul class="dropdown-menu w-150" role="menu">
+            <li><a href="login.html">Login</a>
+            </li>
+            <li><a href="register.html">Create Account</a>
+            </li>
+            <li class="divider"></li>
+            <li><a href="wishlist.html">Wishlist (5)</a>
+            </li>
+            <li><a href="cart.html">My Cart</a>
+            </li>
+            <li><a href="checkout.html">Checkout</a>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="false"> <i class="fa fa-shopping-basket mr-5"></i> <span class="hidden-xs">
+                                Cart<sup class="text-primary">(3)</sup>
+                                <i class="fa fa-angle-down ml-5"></i>
+                            </span> </a>
+          <ul class="dropdown-menu cart w-250" role="menu">
+            <li>
+              <div class="cart-items">
+                <ol class="items">
+                  <li>
+                    <a href="#" class="product-image"> <img src="https://lh3.googleusercontent.com/-uwagl9sPHag/WM7WQa00ynI/AAAAAAAADtA/hio87ZnTpakcchDXNrKc_wlkHEcpH6vMwCJoC/w140-h148-p-rw/profile-pic.jpg" class="img-responsive" alt="Sample Product "> </a>
+                    <div class="product-details">
+                      <div class="close-icon"> <a href="#"><i class="fa fa-close"></i></a> </div>
+                      <p class="product-name"> <a href="#">Sumi9xm@gmail.com</a> </p> <strong>1</strong> x <span class="price text-primary">$59.99</span> </div>
+                    <!-- end product-details -->
+                  </li>
+                  <!-- end item -->
+                  <li>
+                    <a href="#" class="product-image"> <img src="https://lh3.googleusercontent.com/-Gy3KAlilHAw/WNf7a2eL5YI/AAAAAAAAD2Y/V3jUt14HiZA3HLpeOKkSaOu57efGuMw9ACL0B/w245-d-h318-n-rw/shoes_01.jpg" class="img-responsive" alt="Sample Product "> </a>
+                    <div class="product-details">
+                      <div class="close-icon"> <a href="#"><i class="fa fa-close"></i></a> </div>
+                      <p class="product-name"> <a href="#">Lorem Ipsum dolor sit</a> </p> <strong>1</strong> x <span class="price text-primary">$39.99</span> </div>
+                    <!-- end product-details -->
+                  </li>
+                  <!-- end item -->
+                  <li>
+                    <a href="#" class="product-image"> <img src="https://lh3.googleusercontent.com/-ydDc-0L0WFY/WNf7a6Awe_I/AAAAAAAAD2Y/I8IzJtYRWegkOUxCZ5SCK6vbdiiSxVsCQCL0B/w245-d-h318-n-rw/bags_07.jpg" class="img-responsive" alt="Sample Product "> </a>
+                    <div class="product-details">
+                      <div class="close-icon"> <a href="#"><i class="fa fa-close"></i></a> </div>
+                      <p class="product-name"> <a href="#">Lorem Ipsum dolor sit</a> </p> <strong>1</strong> x <span class="price text-primary">$29.99</span> </div>
+                    <!-- end product-details -->
+                  </li>
+                  <!-- end item -->
+                </ol>
+              </div>
+            </li>
+            <li>
+              <div class="cart-footer"> <a href="#" class="pull-left"><i class="fa fa-cart-plus mr-5"></i>View Cart</a> <a href="#" class="pull-right"><i class="fa fa-shopping-basket mr-5"></i>Checkout</a> </div>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    </nav>
+   
+
+	    
+<nav class="navbar navbar-default">
+  
+    <!-- Brand and toggle get grouped for better mobile display -->
+<div class="button-header">
+     <div class="container">
+    <div class="row">
+      <div class="col-md-5">
+              <div class="navbar-header">
+                  <a class="navbar-brand" href="#"> UX.Shop </a><br>
+                  <span>Welcome To UX.Shop </span>
+              </div> 
+      </div>
+     <div class="col-md-7">
+             <form class="form-horizonal">
+                  <div class="form-group">
+                       <select class="form-control input-lg" name="category">
+              <option value="all">All Categories</option>
+              <optgroup label="Mens">
+                <option value="shirts">Shirts</option>
+                <option value="coats-jackets">Coats & Jackets</option>
+                <option value="underwear">Underwear</option>
+                <option value="sunglasses">Sunglasses</option>
+                <option value="socks">Socks</option>
+                <option value="belts">Belts</option>
+              </optgroup>
+              <optgroup label="Womens">
+                <option value="bresses">Bresses</option>
+                <option value="t-shirts">T-shirts</option>
+                <option value="skirts">Skirts</option>
+                <option value="jeans">Jeans</option>
+                <option value="pullover">Pullover</option>
+              </optgroup>
+              <option value="kids">Kids</option>
+              <option value="fashion">Fashion</option>
+              <optgroup label="Sportwear">
+                <option value="shoes">Shoes</option>
+                <option value="bags">Bags</option>
+                <option value="pants">Pants</option>
+                <option value="swimwear">Swimwear</option>
+                <option value="bicycles">Bicycles</option>
+              </optgroup>
+              <option value="bags">Bags</option>
+              <option value="shoes">Shoes</option>
+              <option value="hoseholds">HoseHolds</option>
+              <optgroup label="Technology">
+                <option value="tv">TV</option>
+                <option value="camera">Camera</option>
+                <option value="speakers">Speakers</option>
+                <option value="mobile">Mobile</option>
+                <option value="pc">PC</option>
+              </optgroup>
+            </select>
+                      <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+                      <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                 </div>
+              </form>
+        </div>
+  </div>
+  
+      </div>
+    </div>
+<div class="container">
+    <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    
+      <ul class="nav navbar-nav pull-left">
+          <li class="activelink"><a data-value="about1" href="#"> Home</a></li>
+                  <li class="dropdown mega-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> <i class="fa fa-angle-up"></i> Clothes </a>        
+                      <ul class="dropdown-menu mega-dropdown-menu">
+                        <li class="col-sm-3 col-xs-6">
+                          <ul>
+                            <li><a href="#">Top</a></li>
+                            <li><a href="#">Dresses</a></li>
+                            <li><a href="#">Jumpsuits</a></li>                            
+                            <li><a href="#">Rompers</a></li>      
+                          </ul>
+                        </li>
+                        <li class="col-sm-3 col-xs-6">
+                          <ul>
+                            <li><a href="#">Sweaters</a></li>
+                            <li><a href="#">Jackets</a></li>
+                            <li><a href="#">Pants</a></li>                            
+                            <li><a href="#">Skirts</a></li>              
+                          </ul>
+                        </li>
+                        <li class="col-sm-3 col-xs-6">
+                          <ul>
+                            <li><a href="#">Boxers</a></li>
+                            <li><a href="#">Pajamas</a></li>
+                            <li><a href="#">Tees</a></li>                            
+                            <li><a href="#">Sweatshirts</a></li>              
+                          </ul>
+                        </li>
+                        <li class="col-sm-3 col-xs-6">
+                          <ul>
+                            <li><a href="#">Camisole</a></li>
+                            <li><a href="#">Bra Top</a></li>
+                            <li><a href="#">Leggings</a></li>                            
+                            <li><a href="#">Tubes</a></li>              
+                          </ul>
+                        </li>           
+                        <li class="col-sm-3 col-xs-6">
+                          <ul>
+                            <li><a href="#">Jewelry</a></li>
+                            <li><a href="#">Fashion Tape</a></li>
+                            <li><a href="#">Scarves</a></li>                            
+                            <li><a href="#">Stationery</a></li>              
+                          </ul>
+                        </li>                              
+                      </ul>       
+                    </li>
+        <li><a data-value="resume1" href="#">  <i class="fa fa-angle-up"></i> Hand Made </a></li>
+        <li><a data-value="skils1" href="#">  <i class="fa fa-angle-up"></i> Mobiles And Tablets  </a></li>
+          <li><a  data-value="design1"href="#"> <i class="fa fa-angle-up"></i>  Fashion</a></li>
+          <li><a data-value="contacts1" href="#"> <i class="fa fa-angle-up"></i>  Sports</a></li>
+           <li><a data-value="contacts1" href="#"> <i class="fa fa-angle-up"></i>  Watches</a></li>
+           <li><a data-value="contacts1" href="#"> <i class="fa fa-angle-up"></i>  Health And Beauty </a></li>
+      </ul>
+
+    </div>
+      
+      
+  </div>
+</nav>    
+ 
+  <!--Start Filter -->
+
+      <!--Left Filter Jobs -->
+    <div class="jobs2">
+    <div class="row">
+    <div class="container">
+    <div class="col-md-3">
+    <div class="filter">
+        
+       
+    <form>
+
+    <div class="panel panel-success">
+    <div class="panel-heading filter-heading">
+ Brands  
+    <span class="toggle-info pull-right">
+    <i class="fa fa-plus"></i>  
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input type="checkbox" name="today" >Adidas <span>(100)</span><br>
+    <input type="checkbox" name="revelence" >Nike <span>(50)</span><br>
+  
+    </div>
+    </div>
+      <div class="panel panel-success">
+    <div class="panel-heading filter-heading">
+  price 
+    <span class="toggle-info pull-right">
+     <i class="fa fa-plus"></i>  
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input type="checkbox" name="full-time" >>50$ <span> (100)</span><br>
+    <input type="checkbox" name="part-time" >$50:60$<span>(50)</span><br>
+    <input type="checkbox" name="contracts" >>$60 <span>(30)</span><br>
+    
+    
+    
+    </div>
+    </div>
+        
+  
+         <div class="panel panel-success">
+    <div class="panel-heading filter-heading">
+     color
+    <span class="toggle-info pull-right">
+     <i class="fa fa-plus"></i>
+    </span>   
+    </div>
+    <div class="panel-body">
+
+    <input type="checkbox" name="7days" > Red <span>(50)</span><br>
+    <input type="checkbox" name="15days" >Orange <span>(30)</span><br>
+    <input type="checkbox" name="30days" >	Yellow <span>(14)</span><br>
+  <input type="checkbox" name="30days" >	Balck <span>(14)</span><br>
+    </div>
+    </div>
+        
+  
+
+         
+       <div class="panel panel-success">
+    <div class="panel-heading filter-heading">
+     Discounts 
+    <span class="toggle-info pull-right">
+    <i class="fa fa-plus"></i>
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input type="checkbox" name="junior" >10% <span> (100)</span><br>
+  <input type="checkbox" name="intermediate" >20%<span> (50)</span><br>
+        <input type="checkbox" name="senior" >30%<span> (8)</span><br>
+     <input type="checkbox" name="senior" >40%<span> (8)</span><br>
+     <input type="checkbox" name="senior" >50%<span> (8)</span><br>
+   
+    </div>
+    </div> 
+        
+          <div class="panel panel-success">
+    <div class="panel-heading filter-heading">
+     Prices  
+    <span class="toggle-info pull-right">
+    <i class="fa fa-plus"></i>
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input type="checkbox" name="junior" >Cairo <span> (100)</span><br>
+  <input type="checkbox" name="intermediate" >Giza<span> (50)</span><br>
+        <input type="checkbox" name="senior" >Alexandria<span> (8)</span><br>
+
+
+   
+    </div>
+    </div> 
+           <div class="panel panel-success">
+    <div class="panel-heading filter-heading">
+     Locaion   
+    <span class="toggle-info pull-right">
+    <i class="fa fa-plus"></i>
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input type="checkbox" name="junior" >Cairo <span> (100)</span><br>
+  <input type="checkbox" name="intermediate" >Giza<span> (50)</span><br>
+        <input type="checkbox" name="senior" >Alexandria<span> (8)</span><br>
+
+
+   
+    </div>
+    </div> 
+       
+    </form>
+    </div>
+            
+   </div>
+    <div class="col-md-8">
+	 <div class="category-content">
+       
+        <div class="col-md-4">
+           <div class="product">
+             <img src="images/products/product77.png" class="img-responsive" alt="product" > 
+             <div class="caption">
+                <h4>Awsome Product </h4> 
+                 <div>
+                  <span><s>200$</s>100$s</span>
+                
+                 </div>
+             <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="#" class="btn btn-default"><i class="fa fa-eye"></i></a>
+             </div>
+           </div>
+         </div>
+            <div class="col-md-4">
+           <div class="product">
+             <img src="images/products/product88.png" class="img-responsive" alt="product" > 
+             <div class="caption">
+                <h4>Awsome Product </h4> 
+                 <div>
+                  <span><s>200$</s>100$</span>
+                 
+                 </div>
+                   <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="#" class="btn btn-default"><i class="fa fa-eye"></i></a>
+             </div>
+           </div>
+         </div>
+         
+            <div class="col-md-4">
+           <div class="product">
+             <img src="images/products/camera.png" class="img-responsive" alt="product" > 
+             <div class="caption">
+                <h4>Awsome Product </h4> 
+                 <div>
+                  <span><s>200$</s>100$s</span>
+               
+                 </div>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="#" class="btn btn-default"><i class="fa fa-eye"></i></a>
+             </div>
+           </div>
+         </div>
+ <div class="col-md-4">
+           <div class="product">
+             <img src="images/products/lcd.png" class="img-responsive" alt="product" > 
+             <div class="caption">
+                <h4>Awsome Product </h4> 
+                 <div>
+                  <span><s>200$</s>100$s</span>
+               
+                 </div>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="#" class="btn btn-default"><i class="fa fa-eye"></i></a>
+             </div>
+           </div>
+         </div>
+
+          <div class="col-md-4">
+           <div class="product">
+             <img src="images/products/plan.jpg" class="img-responsive" alt="product" > 
+             <div class="caption">
+                <h4>Awsome Product </h4> 
+                 <div>
+                  <span><s>200$</s>100$s</span>
+               
+                 </div>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="#" class="btn btn-default"><i class="fa fa-eye"></i></a>
+             </div>
+           </div>
+         </div>
+
+          <div class="col-md-4">
+           <div class="product">
+             <img src="images/products/camera2.jpg" class="img-responsive" alt="product" > 
+             <div class="caption">
+                <h4>Awsome Product </h4> 
+                 <div>
+                  <span><s>200$</s>100$s</span>
+               
+                 </div>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="#" class="btn btn-default"><i class="fa fa-eye"></i></a>
+             </div>
+           </div>
+         </div>
+
+          <div class="col-md-4">
+           <div class="product">
+             <img src="images/products/blueray.jpg" class="img-responsive" alt="product" > 
+             <div class="caption">
+                <h4>Awsome Product </h4> 
+                 <div>
+                  <span><s>200$</s>100$s</span>
+               
+                 </div>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="#" class="btn btn-default"><i class="fa fa-eye"></i></a>
+             </div>
+           </div>
+         </div>
+
+          <div class="col-md-4">
+           <div class="product">
+             <img src="images/products/montior.jpg" class="img-responsive" alt="product" > 
+             <div class="caption">
+                <h4>Awsome Product </h4> 
+                 <div>
+                  <span><s>200$</s>100$s</span>
+               
+                 </div>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="#" class="btn btn-default"><i class="fa fa-eye"></i></a>
+             </div>
+           </div>
+         </div>
+ <div class="col-md-4">
+           <div class="product">
+             <img src="images/products/gooole.jpg" class="img-responsive" alt="product" > 
+             <div class="caption">
+                <h4>Awsome Product </h4> 
+                 <div>
+                  <span><s>200$</s>100$s</span>
+               
+                 </div>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></a>
+                    <a href="#" class="btn btn-default"><i class="fa fa-eye"></i></a>
+             </div>
+           </div>
+         </div>
+
+     </div>
+		
+    </div>
+	
+	
+	
+	
+	
+    </div>    
+    </div>
+     
+    <!--end Left Filter Jobs -->
+     <!--Start Pagnition-->
+
+ </div>
+    <!--End Pagnition --> 
+     <footer>
+       <div class="container">
+      <div class="footer-top">
+      
+             <div class="row">
+            
+                   <div class="col-md-3">
+                      <h3>Get In Touch </h3>
+                       <ul class="connect">
+                         <li><i class="fa fa-phone"></i> 01062070712</li>
+                         <li><i class="fa fa-envelope"></i> msarwat@gamil.com</li>
+                         <ul class="sub-social">
+                            <li><i class="fa fa-facebook"></i></li>
+                           <li><i class="fa fa-twitter"></i></li>
+                             <li><i class="fa fa-instagram"></i></li>
+                         </ul>
+                       </ul>
+                   </div> 
+                   <div class="col-md-3">
+                     <h3>Information</h3>
+
+                     <ul>
+                         <li><i class="fa fa-angle-right"></i> About Store </li>
+                         <li><i class="fa fa-angle-right"></i> New Collection </li>
+                         <li><i class="fa fa-angle-right"></i> Woman Dress </li>
+                         <li><i class="fa fa-angle-right"></i> Contact Us </li>
+                         <li><i class="fa fa-angle-right"></i> Latest News </li>
+                     </ul>
+
+
+                   </div> 
+                   <div class="col-md-3">
+                       <h3>USEFUL LINKS</h3>
+
+                     <ul>
+                         <li><i class="fa fa-angle-right"></i> Privacy Policy</li>
+                         <li><i class="fa fa-angle-right"></i> Returns </li>
+                         <li><i class="fa fa-angle-right"></i>Terms & Conditions </li>
+                         <li><i class="fa fa-angle-right"></i> Contact Us </li>
+                         <li><i class="fa fa-angle-right"></i> Our Sitemap </li>
+                     </ul>
+
+
+
+                   </div> 
+                    <div class="col-md-3">
+
+                           <h3>Site Information </h3>
+s
+                     <ul>
+                         <li><i class="fa fa-angle-right"></i> List Product Archive </li>
+                         <li><i class="fa fa-angle-right"></i> List Product Archive </li>
+                         <li><i class="fa fa-angle-right"></i> List Product Archive </li>
+                         <li><i class="fa fa-angle-right"></i> List Product Archive </li>
+                         <li><i class="fa fa-angle-right"></i> List Product Archive </li>
+                     </ul>
+
+                   </div> 
+            
+             </div>  
+        </div>
+        <div class="footer-bottom">
+           <div class="container">
+               <div class="row">
+                  <div  class="col-md-6">
+                   <img   src="images/payment_methods.png" alt="payment" class="img-responsive"> 
+                  </div>
+                  <div  class="col-md-4">
+                   
+                  </div>
+               </div>
+               <div class="row">
+                 <h4>All CopyRights &copy; Recived For Mohamed Sarwat 2018</h4>
+               </div>
+            </div>   
+        </div>
+      </div>
+  </footer>     
+  
+    <!--End Filter --> 
+   
+	<script src="js/jquery-1.12.0.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+ <script defer src="js/jquery.flexslider.js"></script>
+    <script src="js/imagezoom.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+      <script src="js/jquery.nicescroll.min.js"></script>
+	<script src="js/active.js"></script>
+<!--End Including Js Files -->
+</body>
+</html>
